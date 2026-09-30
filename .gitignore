@@ -1,0 +1,27 @@
+# Local operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+~$*
+.vscode/
+.idea/
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+
+# Local review materials never belong in the public portfolio
+private/
+work/
+internal-review/
